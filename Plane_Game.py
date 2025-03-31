@@ -232,12 +232,12 @@ closet_button = ImageButton('Images_Sounds/closet_button1.jpg', (500, 600), 800)
 plane_button = ImageButton('Images_Sounds/plane.png', (250, 200), 300)
 
 plane_1_button = ImageButton('Images_Sounds/El_Al_Plane.png', (750, 200), 300)
-plane_2_button = ImageButton('Images_Sounds/plane.png', (250, 500), 300)
-plane_3_button = ImageButton('Images_Sounds/plane.png', (750, 500), 300)
+plane_2_button = ImageButton('Images_Sounds/f18_plane.png', (250, 500), 300)
+plane_3_button = ImageButton('Images_Sounds/cessna_plane.png', (750, 500), 300)
 plane_buttons = [plane_button, plane_1_button, plane_2_button,
                  plane_3_button]
 menu_button = Button((170, 80), (0, 0, 0), 'MENU', (255, 255, 255), menu_font)
-plane_image = 'Images_Sounds/plane.png'
+plane_image = plane_button.image_name
 
 background_music = Music('Images_Sounds/BackgroundMusic1.mp3', 0.3, 100)
 background_music.play_music()
